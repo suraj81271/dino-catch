@@ -51,7 +51,7 @@ setInterval(() => {
   offsetY = Math.abs(dy - oy);
   // console.log(offsetX, offsetY)
   if (offsetX < 73 && offsetY < 52) {
-    gameOver.innerHTML = "Game Over- Reload to start over";
+    gameOver.innerHTML = "Game Over- Reload again ";
     obstacle.classList.remove("obstacleAni");
     audiogo.play();
     setTimeout(() => {
